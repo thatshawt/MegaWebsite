@@ -1,0 +1,19 @@
+<head>
+  <meta property="og:title" content="<%= title %>" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="<%= url %>" />
+  <meta property="og:image" content="<%= image %>" />
+  <meta property="og:description" content="<%= desc %>" />
+  <meta name="theme-color" content="<%= color %>">
+
+  <!-- Include this to make the og:image larger -->
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+
+  <script>
+    window.location.replace(<%= redirect %>);
+  </script>
+  
+</body>
